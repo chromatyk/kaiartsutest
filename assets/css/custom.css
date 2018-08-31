@@ -86,6 +86,12 @@
   transition: transform 400ms ease;
   transition: transform 400ms ease, -webkit-transform 400ms ease;
 }
+.circle-button .close1 {
+  -webkit-transition: -webkit-transform 400ms ease;
+  transition: -webkit-transform 400ms ease;
+  transition: transform 400ms ease;
+  transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
 .circle-button:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.275);
 }
@@ -93,4 +99,28 @@
 .closeRotate {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+.close1:hover, .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.close1 {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
 }
