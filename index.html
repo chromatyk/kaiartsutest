@@ -7,6 +7,7 @@
     <meta name="author" content="">
     <title>kaiARTsu</title>
 	<!-- core CSS -->
+    <link rel="icon" type="image/png" href="assets/images/Kaiart.png" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/animate.min.css" rel="stylesheet">
@@ -448,41 +449,62 @@
             <div class="row">
             <div class="col-sm-6">
             <div class="address">
-            <h4>Address</h4>
-            <p>Lorem ipsum dolor sit amet, ETX consectetur adipiscing elit,<br>
- sed do ETX eiusmod tempor incididunt ut labore et</p>
+            <h4>Adresse</h4>
+            <p>non définis mais bientôt</p>
             </div>
             <div class="address">
-            <h4>Phone </h4>
-            <p>123-456-7890</p>
+            <h4>Téléphone</h4>
+            <p><a href="tel:+33770008666" style="color:blue;">Nicolas : 07.70.00.86.66</a></p>
+            <p><a href="tel:+33676716137" style="color:blue;">Pierre : 06.76.71.61.37</a></p>
             </div>
             <div class="address">
             <h4>Email</h4>
-            <p><a href="#">info@companyname.com </a></p>
+            <p><a href="mailto:kaiartsu.contact@gmail.com" style="color:blue;">kaiartsu.contact@gmail.com</a></p>
             </div>
             <div class="address">
-            <h4>Follow Us</h4>
-            <p><a href="#"><i class="fa fa-facebook"></i></a>  &nbsp; <a href="#"><i class="fa fa-twitter"></i></a> &nbsp; <a href="#"><i class="fa fa-google-plus"></i></a></p>
+            <h4>Suivez-nous</h4>
+            <p><a href="#"><i class="fa fa-facebook"></i></a>  &nbsp; <a href="#"><i class="fa fa-twitter"></i></a> &nbsp; <a href="#"><i class="fa fa-linkedin"></i></a></p>
             </div>
+            <form role="form" method="post" id="reused_form">
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <label for="name">Nom / Entreprise :</label>
+                    <input type="text" class="form-control" id="lastname" name="lastname"  maxlength="50">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <label for="email">Adresse mail :</label>
+                <input type="text" class="form-control" id="email" name="email" maxlength="50">
+              </div>
+              <div class="col-sm-6 form-group">
+                <label for="email">Numéro de téléphone:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required maxlength="50">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <label for="name">Objet:</label>
+                <input type="text" class="form-control" id="subject" name="subject" maxlength="50">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <label for="name">Message:</label>
+                <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button class="btn btn-primary" type="submit">ENVOYER</button>
+              </div>
+            </div>
+        </form>
             </div>
             <div class="col-sm-6">
-            <form action="#" method="post" name="contact-form" id="main-contact-form">
-                                <div class="form-group">
-                                    <input type="text" required placeholder="Name" class="form-control" name="name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" required placeholder="Email" class="form-control" name="email">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" required placeholder="Subject" class="form-control" name="subject">
-                                </div>
-                                <div class="form-group">
-                                    <textarea required placeholder="Message" rows="8" class="form-control" name="message"></textarea>
-                                </div>
-                                <button class="btn btn-primary" type="submit">SUBMIT</button>
-                            </form>
-            </div>
-            </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.8491096369376!2d3.0000193158825934!3d49.600594856113254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e87390888f41d7%3A0x30516cb35af96c0c!2sE2N+%3A+Ecole+du+Num%C3%A9rique+du+Noyonnais!5e0!3m2!1sfr!2sfr!4v1535713939894" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>            </div>
+            <div class="col-sm-6">
+          </div>
         </div>
     </section><!--/#get-in-touch-->
     <footer id="footer">
