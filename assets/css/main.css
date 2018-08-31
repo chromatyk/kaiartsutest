@@ -193,7 +193,8 @@ hr {
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #e84a00;
+  background: #428BBC;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, .2);
 }
 .column-title {
   margin-top: 0;
@@ -742,7 +743,7 @@ ul.nostyle i {
     float: right;
   }
 }
-.form-control {
+.form-group {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
