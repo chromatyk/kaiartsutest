@@ -20,6 +20,8 @@ h1,h2,h3,h4,h5,h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 #parallax2 {
   width: 0;
@@ -32,6 +34,8 @@ h1,h2,h3,h4,h5,h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 #parallax3 {
   width: 0;
@@ -44,6 +48,8 @@ h1,h2,h3,h4,h5,h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 #parallax4 {
   width: 0;
@@ -56,6 +62,8 @@ h1,h2,h3,h4,h5,h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 #parallax5 {
   width: 0;
@@ -68,6 +76,8 @@ h1,h2,h3,h4,h5,h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 @font-face {
 	font-family: 'Roboto-regular';
