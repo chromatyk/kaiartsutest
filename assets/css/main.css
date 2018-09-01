@@ -14,6 +14,34 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Roboto-regular', sans-serif;
   color: #272727;
 }
+#topcontrol {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    background: #2E7AAB;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    z-index: 30;
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+#topcontrol:hover {
+    background: #4F9CCD;
+    color: #fff;
+}
 #parallax1 {
   border-style: solid;
   border-width: 0 0 500px 10000px;
@@ -685,10 +713,11 @@ ul.nostyle i {
 }
 #services h1,
 #services h2,
-#services h3,
-#services h4,
-#services p {
-  color: blue;
+#services h3,{
+  color: #454545;
+}
+#services p{
+  color: #2E7AAB;
 }
 #services strong {
   display: block;
