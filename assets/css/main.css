@@ -44,72 +44,88 @@ h1,h2,h3,h4,h5,h6 {
     color: #fff;
 }
 #parallax1 {
-  border-style: solid;
-  border-width: 0 0 500px 10000px;
-  border-color: transparent transparent #f1f1f1 transparent;
   background-image: url("../images/parallaxe1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+}
+.buttonParalax{
+  background: none;
+  color: white;
+  border-radius: 25px;
+  border-color: #317AAB;
+}
+.buttonParalaxLex{
+  background: none;
+  color: white;
+  border-radius: 25px;
+  border-color: red;
+}
+.buttonPills{
+  background-image:linear-gradient(10deg, black, #317AAB);
+  color: white;
+  border-radius: 25px;
+  border-color: #317AAB;
+}
+.buttonPillsLex{
+  background-image:linear-gradient(10deg, black, red);
+  color: white;
+  border-radius: 25px;
+  border-color: red;
+}
+.parallaxTxt1 {
+  text-align: center;
+  padding: 150px 0 0;
+  color : white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.parallaxTxt {
+  text-align: center;
+  color : white;
+  font-size: 30px;
+  font-weight: bold;
+}
+#coupureTop{
+  border-style: solid;
+  border-width: 0px 5000px 200px 0px  ;
+  border-color:    transparent #f1f1f1 transparent #f1f1f1 ;
+}
+#coupureBot{
+  border-style: solid;
+  border-width: 0 0 200px 5000px;
+  border-color: transparent transparent #f1f1f1 transparent;
 }
 #parallax2 {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 300px 6000px 300px 6000px;
-  border-color: #f1f1f1 transparent #f1f1f1 transparent;
   background-image: url("../images/parallaxe2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+  background-blend-mode: color-burn;
 }
 #parallax3 {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 300px 6000px 300px 6000px;
-  border-color: #f1f1f1 transparent #f1f1f1 transparent;
   background-image: url("../images/parallaxe3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 #parallax4 {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 300px 6000px 300px 6000px;
-  border-color: #f1f1f1 transparent #f1f1f1 transparent;
   background-image: url("../images/parallaxe4.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 #parallax5 {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 300px 6000px 300px 6000px;
   border-color: #f1f1f1 transparent #f1f1f1 transparent;
   background-image: url("../images/parallaxe5.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 @font-face {
 	font-family: 'Roboto-regular';
