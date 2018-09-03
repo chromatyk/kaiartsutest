@@ -124,3 +124,8 @@
     filter: alpha(opacity=20);
     opacity: .2;
 }
+#kiket p{
+  color: black;
+  text-align: justify;
+  font-size: 15px;
+}
