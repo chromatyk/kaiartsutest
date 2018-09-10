@@ -129,3 +129,17 @@
   text-align: justify;
   font-size: 15px;
 }
+
+.portfolio-info img{
+  background-color: #2E7AAB;
+}
+
+.portfolio-item{
+  margin: 5px;
+}
+
+.portfolio-item:hover{
+  background-color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+}
