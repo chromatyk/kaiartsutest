@@ -61,7 +61,10 @@
   font-weight: 100;
   color: white;
 }
-
+.card-bottom p{
+  text-align: center;
+font-weight: bold;
+}
 .circle-button {
   position: absolute;
   bottom: 0;
