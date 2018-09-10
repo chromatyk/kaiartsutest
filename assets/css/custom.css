@@ -1,17 +1,14 @@
 .card {
   position: relative;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 0.75em;
-  padding: 0;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.card:nth-child(even) {
-  margin: 0 1em;
+.cardBody p{
+  text-align: center;
 }
-
 .card-top {
-  background: #B2DCE5;
+  background: #2E7AAB;
   border-top-left-radius: 0.75em;
   border-top-right-radius: 0.75em;
 }
@@ -54,13 +51,15 @@
 }
 
 .card-bottom {
-  background: #f7f7f7;
+  background: #2E7AAB;
   padding: 1.75em 1em 1em 1em;
   border-bottom-left-radius: 0.75em;
   border-bottom-right-radius: 0.75em;
+  margin-bottom: 50px;
 }
 .card-bottom .card-title {
   font-weight: 100;
+  color: white;
 }
 
 .circle-button {

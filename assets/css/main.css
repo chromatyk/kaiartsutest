@@ -15,6 +15,38 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Roboto-regular', sans-serif;
   color: #272727;
 }
+.btnPlus{
+    background: #428BBC;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, .2);
+}
+.cardBody{
+  border-right-style: solid;
+  border-right-color: #2E7AAB;
+  border-left-style: solid;
+  border-left-color: #2E7AAB;
+}
+.cardHead{
+  padding-top: 20px;
+    padding-bottom: 20px;
+  background-color: #2E7AAB;
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+.packTitle{
+  color : white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.startTo{
+  text-align: center;
+  font-weight: bold;
+}.price{
+  color : white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
 #topcontrol {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -622,40 +654,40 @@ ul.nostyle i {
   -ms-transition: none;
   -o-transition: none;
   transition: none;
-}#team {
+}#offers {
   padding: 87px 0 87px 0; background:#f1f1f1;
 }
-#team .team-member {
+#offers .team-member {
   padding: 13px;
   background: #eeeeee;
   border: 2px solid #eeeeee;
   transition: border-color 400ms;
   -webkit-transition: border-color 400ms;
 }
-#team .team-member .team-img {
+#offers .team-member .team-img {
   margin: -15px -15px 0 -15px;
 }
-#team .team-member .team-info {
+#offers .team-member .team-info {
 /*  padding-bottom: 10px;
   border-bottom: 1px solid #dbdbdb;
   margin-bottom: 10px;*/
 }
 .team-info h3{ margin-bottom:0px;}
-#team .team-member:hover {
+#offers .team-member:hover {
   border-color: #45aed6;
 }
-#team .team-member:hover .social-icons > li > a {
+#offers .team-member:hover .social-icons > li > a {
   background: #45aed6;
 }
-#team .social-icons {
+#offers .social-icons {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-#team .social-icons > li {
+#offers .social-icons > li {
   display: inline-block;
 }
-#team .social-icons > li > a {
+#offers .social-icons > li > a {
   display: block;
   width: 32px;
   height: 32px;
