@@ -15,6 +15,11 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Roboto-regular', sans-serif;
   color: #272727;
 }
+.catchOffer{
+  color : white;
+  text-align: center;
+  font-size: 15px;
+}
 .btnPlus{
     background: #428BBC;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, .2);
