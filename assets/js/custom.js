@@ -21,3 +21,8 @@ $('.quote').click(function(){
 $('blockquote').text(quotes[Math.floor( Math.random() * quotes.length )]);
 });
 });
+
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})

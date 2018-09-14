@@ -1478,12 +1478,6 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-family: Arial, Helvetica, sans-serif;
-		font-size: 0.6rem;
-		font-weight: 700;
-		height: 2.75rem;
-		letter-spacing: 0.15rem;
-		line-height: 2.75rem;
-		padding: 0 1.5rem 0 1.65rem;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -2606,7 +2600,7 @@ input, select, textarea {
 		}
 
 		.panel.small .span-5, .panel.medium .span-5, .panel.large .span-5 {
-			width: 50%;
+			width: 80%;
 		}
 
 		.panel.small .span-5-25, .panel.medium .span-5-25, .panel.large .span-5-25 {
@@ -3388,7 +3382,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			padding: 3.5rem 3.5rem 2rem 3.5rem ;
+			padding: 0rem 0rem 2rem 3.5rem ;
 		}
 
 		.panel.spotlight .image {
@@ -3665,3 +3659,130 @@ input, select, textarea {
 			}
 
 	}
+.overlay-trigger {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 840px;
+  margin: 0 auto;
+}
+.overlay-trigger button {
+  display: inline-block;
+  margin: 2em;
+	padding-top: 1em;
+  background: #222;
+  border: 1px solid #222;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+	min-width: 220px;
+}
+.overlay-trigger button:hover {
+  background: transparent;
+  color: #222;
+}
+.overlay-close {
+  position: fixed;
+  top: 5%;
+  left: 90%;
+  z-index: 10;
+  padding: 1em 2.5em;
+  background: blue;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #222;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s ease-in-out;
+  transform: translate(-50%, -50%);
+}
+.overlay-close.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+.overlay-close:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.overlay01 {
+	position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0);
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s linear;
+  transform: translateY(-100%);
+}
+.overlay01.is-open {
+	opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.overlay02 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0);
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s linear;
+	transform: translateY(-100%);
+}
+.overlay02.is-open {
+	opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.overlay03 {
+	position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0);
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s linear;
+  transform: translateY(-100%);
+}
+.overlay03.is-open {
+	opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.overlay04 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0);
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s linear;
+  transform: translateY(-100%);
+}
+.overlay04.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
