@@ -6,7 +6,31 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+.serviceCircle{
+border-style: solid;
+border-color: white;
+border-width: 1px;
+border-radius: 50%;
+width: 115.2px;
+height: 115.2px;
+}
+.imgService{
+	width:100%;
+	display: block;
+	margin: auto;
+	margin-top: 25%;
+}
+.panel{
+	color : black;
+	border:none;
+	background: none;
+}
+.titleServices{
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1266,6 +1290,7 @@ input, select, textarea {
 
 		ul.grid-icons.three {
 			width: 21.5rem;
+			margin: auto;
 		}
 
 			ul.grid-icons.three > li:nth-child(-n + 3) {
@@ -2258,7 +2283,6 @@ input, select, textarea {
 				}
 
 		.panel > .inner {
-			padding: 3.5rem 3.5rem 2rem 3.5rem ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -2284,7 +2308,6 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			position: relative;
-			width: 100%;
 		}
 
 			.panel > .inner.columns {
@@ -3659,6 +3682,7 @@ input, select, textarea {
 			}
 
 	}
+
 .overlay-trigger {
   display: flex;
   flex-wrap: wrap;
