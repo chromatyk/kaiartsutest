@@ -1,0 +1,135 @@
+/**
+ * Dell SonicWALL Flyout styles
+ *
+ * Styles reference to Bootstrap popover (http://getbootstrap.com)
+ */
+
+.swlFlyout {
+	position: absolute;
+	left: 0; top: 0;
+	z-index: 7001;
+	display: none;
+	padding: 0;
+	margin: 0;
+	min-width: 200px;
+	max-width: 450px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+			box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+/**
+ * Basical styles for arrow
+ */
+.swlFlyout > .arrow,
+.swlFlyout > .arrow:after
+{
+	position: absolute;
+	display: block;
+	width: 0; height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+
+.swlFlyout > .arrow {
+	border-width: 11px;
+}
+.swlFlyout > .arrow:after {
+	content: "";
+	border-width: 10px;
+}
+
+/**
+ * Arrow styles for respective directions
+ */
+.swlFlyout.top {
+	margin-bottom: 10px;
+}
+.swlFlyout.top > .arrow {
+	bottom: -11px;
+	left: 50%;
+	margin-left: -11px;
+	border-top-color: #aaa;
+	border-bottom-width: 0;
+}
+.swlFlyout.top > .arrow:after {
+	bottom: 1px;
+	margin-left: -10px;
+	border-top-color: #fff;
+	border-bottom-width: 0;
+}
+
+.swlFlyout.right {
+	margin-left: 10px;
+}
+.swlFlyout.right > .arrow {
+	left: -11px;
+	top: 50%;
+	margin-top: -11px;
+	border-right-color: #aaa;
+	border-left-width: 0;
+}
+.swlFlyout.right > .arrow:after {
+	left: 1px;
+	margin-top: -10px;
+	border-right-color: #fff;
+	border-left-width: 0;
+}
+
+.swlFlyout.bottom {
+	margin-top: 10px;
+}
+.swlFlyout.bottom > .arrow {
+	top: -11px;
+	left: 50%;
+	margin-left: -11px;
+	border-bottom-color: #aaa;
+	border-top-width: 0;
+}
+.swlFlyout.bottom> .arrow:after {
+	top: 1px;
+	margin-left: -10px;
+	border-bottom-color: #fff;
+	border-top-width: 0;
+}
+
+.swlFlyout.left {
+	margin-right: 10px;
+}
+.swlFlyout.left > .arrow {
+	right: -11px;
+	top: 50%;
+	margin-top: -11px;
+	border-left-color: #aaa;
+	border-right-width: 0;
+}
+.swlFlyout.left > .arrow:after {
+	right: 1px;
+	margin-top: -10px;
+	border-left-color: #fff;
+	border-right-width: 0;
+}
+
+/**
+ * styles that can be overridden by users
+ */
+.swlFlyout_title {
+	padding: 8px 12px;
+	margin: 0;
+	font-weight: bold;
+	background-color: #f0f0f0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.swlFlyout_content {
+	padding: 10px 12px;
+	margin: 0;
+}
