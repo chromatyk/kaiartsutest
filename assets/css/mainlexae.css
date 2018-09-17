@@ -2333,6 +2333,7 @@ input, select, textarea {
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
 				flex-direction: row;
+				padding-left: 3em;
 			}
 
 				.panel > .inner.columns > * {
@@ -2928,6 +2929,7 @@ input, select, textarea {
 
 			.panel .span-3-25 {
 				width: 100%;
+				padding-left: 30px;
 			}
 
 			.panel .span-3-5 {
