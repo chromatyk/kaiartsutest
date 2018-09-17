@@ -155,7 +155,7 @@ En travaillant étroitement avec vous tous les jours à tous les niveaux, nous s
 									<h2 class="major">Pack pour tous</h2>
                   <p class="catchOffer major">Le pack idéal pour promouvoir votre activité</p>
                   <p class="startTo">à partir de <span class="price">1190€</span></p>
-									<div id="modal-container" class="modalnb1">
+									<div id="modal-one" class="modalnb1">
   									<div class="modal-background">
 	    								<div class="modal">
 	      								<svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
@@ -192,7 +192,7 @@ En travaillant étroitement avec vous tous les jours à tous les niveaux, nous s
 										<h2 class="major">Pack Communautaire</h2>
 	                  <p class="catchOffer major">Le pack parfait pour booster votre communication</p>
 	                  <p class="startTo">à partir de <span class="price">1990€</span></p>
-										<div id="modal-container" class="modalnb2">
+										<div id="modal-two" class="modalnb2">
 	  									<div class="modal-background">
 		    								<div class="modal">
 		      								<svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
@@ -229,7 +229,7 @@ En travaillant étroitement avec vous tous les jours à tous les niveaux, nous s
 											<h2 class="major">Pack Premium</h2>
 		                  <p class="catchOffer major">Le pack qui s'adapte à tous vos besoins</p>
 		                  <p class="startTo">à partir de <span class="price">2490€</span></p>
-											<div id="modal-container" class="modalnb3">
+											<div id="modal-three" class="modalnb3">
 		  									<div class="modal-background">
 			    								<div class="modal">
 			      								<svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
@@ -266,7 +266,7 @@ En travaillant étroitement avec vous tous les jours à tous les niveaux, nous s
 												<h2 class="major">Pack Ecommerce</h2>
 			                  <p class="catchOffer major">Le pack idéal pour ce lancer dans la vente en ligne</p>
 			                  <p class="startTo">à partir de <span class="price">4990€</span></p>
-												<div id="modal-container" class="modalnb4">
+												<div id="modal-four" class="modalnb4">
 			  									<div class="modal-background">
 				    								<div class="modal">
 				      								<svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
@@ -345,43 +345,42 @@ En travaillant étroitement avec vous tous les jours à tous les niveaux, nous s
 			<script src="assets/js/mainlexae.js"></script>
 			<script>
 			$('.button1').click(function(){
-  var buttonId = $(this).attr('id');
-  $('.modalnb1').removeAttr('class').addClass(buttonId);
-  $('body').addClass('modal-active');
-})
-$('.button2').click(function(){
-var buttonId = $(this).attr('id');
-$('.modalnb2').removeAttr('class').addClass(buttonId);
-$('body').addClass('modal-active');
-})
+			  var buttonId = $(this).attr('id');
+			  $('#modal-one').removeAttr('class').addClass(buttonId);
+			  $('body').addClass('modal-active');
+			})
+			$('.button2').click(function(){
+				var buttonId = $(this).attr('id');
+				$('#modal-two').removeAttr('class').addClass(buttonId);
+				$('body').addClass('modal-active');
+			})
+			$('.button3').click(function(){
+				var buttonId = $(this).attr('id');
+				$('#modal-three').removeAttr('class').addClass(buttonId);
+				$('body').addClass('modal-active');
+			})
 
-$('.button3').click(function(){
-var buttonId = $(this).attr('id');
-$('.modalnb3').removeAttr('class').addClass(buttonId);
-$('body').addClass('modal-active');
-})
-
-$('.button4').click(function(){
-var buttonId = $(this).attr('id');
-$('.modalnb4').removeAttr('class').addClass(buttonId);
-$('body').addClass('modal-active');
-})
-$('.modalnb1').click(function(){
-  $(this).addClass('out');
-  $('body').removeClass('modal-active');
-});
-$('.modalnb2').click(function(){
-  $(this).addClass('out');
-  $('body').removeClass('modal-active');
-});
-$('.modalnb3').click(function(){
-  $(this).addClass('out');
-  $('body').removeClass('modal-active');
-});
-$('.modalnb4').click(function(){
-  $(this).addClass('out');
-  $('body').removeClass('modal-active');
-});
+			$('.button4').click(function(){
+				var buttonId = $(this).attr('id');
+				$('#modal-four').removeAttr('class').addClass(buttonId);
+				$('body').addClass('modal-active');
+			})
+				$('.modalnb1').click(function(){
+			  $(this).addClass('out');
+			  $('body').removeClass('modal-active');
+			});
+				$('.modalnb2').click(function(){
+			  $(this).addClass('out');
+			  $('body').removeClass('modal-active');
+			});
+				$('.modalnb3').click(function(){
+			  $(this).addClass('out');
+			  $('body').removeClass('modal-active');
+			});
+				$('.modalnb4').click(function(){
+			  $(this).addClass('out');
+			  $('body').removeClass('modal-active');
+			});
 </script>
 	</body>
 </html>
