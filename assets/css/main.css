@@ -24,12 +24,6 @@ h1,h2,h3,h4,h5,h6 {
     background: #428BBC;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, .2);
 }
-.cardBody{
-  border-right-style: solid;
-  border-right-color: #2E7AAB;
-  border-left-style: solid;
-  border-left-color: #2E7AAB;
-}
 .cardHead{
   padding-top: 20px;
     padding-bottom: 20px;
